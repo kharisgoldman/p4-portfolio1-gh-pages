@@ -1,0 +1,193 @@
+/* Your Website Styles */
+body{
+  background: dimgrey;
+}
+
+/* Set Your Own Margin & Padding */
+h2, h3, p {
+  margin: 0;
+}
+
+/* Layout for Style Tile*/
+
+
+h1{
+
+  font-family: "Lobster", serif;
+  font-size: 3.75em;
+  line-height: 3.75em;
+  color: lightcyan;
+  background: dimgrey;
+
+}
+
+
+h2{
+
+  font-family: "lobster", serif;
+  font-size: 1.875em;
+  color:dimgrey;
+}
+
+h3{
+font-family: "lobster", serif;
+  font-size: 1.5em;
+  color: black;
+
+}
+em {
+  font-family: stint-ultra-expanded, serif;
+}
+
+p{
+  font-family: stint-ultra-expanded, serif;
+}
+
+section {
+  margin: 20px 0;
+}
+
+img {
+  border: black 10px;
+  width:100%;
+  max-width: 100%;
+}
+
+a{
+
+  color: white;
+
+}
+
+/* Gallery Stying */
+.gallery .control-button {
+  color: #ccc;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.gallery .control-button:hover {
+  color: white;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/*
+	Theme controls how everything looks in Gallery CSS.
+*/
+.gallery {
+  position: relative;
+}
+.gallery img{
+  border: 10px;
+}
+.gallery .item {
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  background: dimgrey;
+  
+
+}
+.gallery .controls {
+  position: absolute;
+  bottom: -120px;
+  width: 100%;
+  text-align: center;
+}
+
+.gallery .controls img {
+  border: 5px solid #000;
+}
+
+.gallery .control-button {
+  display: inline-block;
+  margin: 0 .02em;
+  font-size: 3em;
+  text-align: center;
+  text-decoration: none;
+  transition: color .1s;
+}
+
+
+/* Show Grid */
+.showgrid {
+	background: dimgrey;
+}
+
+.container {
+  margin: 0 auto;
+  width: 98%;
+}
+
+
+
+
+
+@media screen and (max-width: 2000px ) and (min-width: 1000px) {
+
+  .gallery {
+    width: 75%;
+    max-width: 75%;
+  }
+
+   img{
+    width: 75%;
+    max-width: 75%;
+  }
+
+
+}
+
+
+
+}
+
+  /*desktop styling*/
+@media screen and (max-width: 1000px ){
+
+  .gallery {
+    width: 75%;
+    max-width: 75%;
+  }
+
+   img{
+    width: 75%;
+    max-width: 75%;
+  }
+
+
+}
+
+
+
+  /*tablet styling*/
+
+@media screen and (max-width: 768px ){
+
+ 
+  .gallery {
+    width: 50%;
+    max-width: 50%;
+  }
+
+
+}
+
+
+  /*mobile styling*/
+
+  @media screen and (max-width: 480px ){
+
+  
+
+  .gallery{
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+  }
+   img {
+    width:50%;
+    max-width: 50%;
+  }
+
+  
+}
